@@ -1,0 +1,639 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@keyframes fadeinall {
+    0% {
+      opacity: 1; }
+    97% {
+      opacity: 0; }
+    98% {
+      opacity: 0;
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+      z-index: -1; } }
+
+@keyframes fadeIn {
+  from {
+    transform:scale(1);
+  }
+  to {
+    transform:scale(1.1);
+  }
+}
+
+
+body {
+    font-family: "helvetica", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    min-height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.herotext h1 {
+    font-size: 60vw;
+}
+
+
+.navbar {
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    z-index: 1;
+    margin: 0;
+}
+
+.navbar a {
+    color: #ffffff;
+
+}
+
+.navbar a:active, .navbar a:hover {
+    color: #7da174 !important;
+}
+
+.navbar-brand p {
+    margin: 0.5rem;
+    margin-left: 2rem;
+}
+
+.navbar-nav li {
+    margin-left: 2rem;
+}
+
+
+
+.dropdown-menu {
+    background: #4f7d66;
+    margin-top: 18px !important;
+    border-radius: 0px;
+    z-index: 2;
+}
+
+a.dropdown-item:hover {
+    background-color: #c8bbb3;
+}
+
+
+
+.heroHeader {
+background-image: url('media/header.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 700px;
+width: 100%;
+position: fixed;
+z-index: -2;
+margin-top: -100px;
+color: #ffffff;
+}
+
+.heroText {
+position: absolute;
+font-family: "Playfair Display", serif;
+text-align: center;
+ width: 100%;
+ margin: 0 auto;
+margin-top: 200px;
+color: #ffffff;
+}
+
+.heroText h1 {
+    font-size: 5vw;
+}
+
+.description {
+    width: 50%;
+    font-size: 1.7vw;
+    margin: 0 auto;
+}
+
+    
+ .content {
+background-color: #ffffff;
+position: relative;
+top: 500px;
+text-align: center;
+line-height: 36px;
+margin-top: 20px;
+padding-top: 60px;
+width: 100%;
+
+     
+}
+
+
+.intro {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.button {
+background-color: rgba(25,120,73,0.7);
+padding:       20px 45px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 26px/1 "Poppins", sans-serif;
+text-align:    center;
+border: none;
+}
+
+.button:hover {
+    background-color: rgba(25,120,73,0.9);
+}
+
+.button1 {
+background-color: #ffffff;
+padding:       20px 45px;
+color:         #000000;
+display:       inline-block;
+font:          26px/ "Poppins", sans-serif;
+text-align:    center;
+text-decoration: none;
+border: 1px solid black;
+border-radius: 10px;
+margin: 10px;
+}
+
+.button1:hover {
+    background-color: rgba(25,120,73,0.2);
+}
+
+p, ul {
+    margin: 10px 20px 10px 20px;
+}
+
+h1 {
+    padding: 30px 0px 30px 0px;
+}
+
+
+.gridContainer {
+    position: relative;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: transparent;
+    width: 100vw !important;
+
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.services {
+    /*background-color: rgba(25,120,73,0.2);*/
+    width: 100vw;
+}
+
+.healingContainer {
+    margin-top: 0;
+}
+
+.servicerow {
+    min-height: 350px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.servicerow p {
+    line-height: 110%;
+}
+
+.healingrow {
+    margin-top: 0;
+    min-height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.healingrow h1 {
+    margin-bottom: 0;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.grid {
+    background-color: #a7bda6;
+    padding: 40px 0 60px 0;
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+.col-sm-4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.diplom {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.diplom .col-sm-2, .diplom .col-sm-4 {
+    margin: 0;
+    padding: 0;
+    max-height: 300px;
+
+
+}
+
+.diplom .col-sm-2 img, .diplom .col-sm-4 img  {
+    width: 100%;
+}
+
+
+.services .one {
+    background-image: url(media/reiki-healing.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.services .two {
+    background-image: url(media/medial-vagledning.jpg);
+     background-size: cover;
+    background-position: center center;
+}
+
+.services .three {
+    background-image: url(media/massage-goteborg.jpg);
+     background-size: cover;
+    background-position: center center;
+}
+
+
+.one h2, .two h2, .three h2 {
+font-family: "Playfair Display", serif;
+text-align: center;
+ width: 100%;
+ margin: 0 auto;
+margin-top: 130px;
+font-size: 3vw;
+color: #ffffff;
+}
+
+.one:hover, .two:hover, .three:hover {
+  transform: scale(1.1); 
+    animation: fadeIn 1s;
+}
+
+.healingrow p, .healingrow h2 {
+    padding: 0px 20px;
+}
+
+
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 24px;
+font-style: italic;
+text-align: left;
+width: 400px;
+margin: 0 auto;
+padding: 40px;
+line-height: 1.45;
+position: relative;
+color: #ffffff;
+background-color: rgba(25,120,73,0.7);
+opacity: 0.9;
+height: 400px;
+border-radius: 5px;
+}
+
+blockquote:before {
+display: block;
+padding-left: 10px;
+content: "\201C";
+font-size: 3em;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #c8bbb3;
+}
+
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:3em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+    color: #c8bbb3;
+}
+
+blockquote cite {
+color: #000000;
+font-size: 20px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+.contact h2 {
+    text-align: center;
+    width: 70vw;
+}
+
+
+/* contact form */
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+.outrorow {
+    padding: 100px 0 100px 0;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    background-image: 
+        linear-gradient(to bottom, rgba(0,0, 0, .3), rgba(0,0, 0, .3)), 
+        url('media/header.jpg');
+       -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.outrorow p {
+    margin-top: 30px;
+}
+
+.reikifb {
+    max-height: 40px;
+    float: left;
+    margin-left: 10%;
+}
+
+.reikifbdt {
+    display: none;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0 !important;
+    background-color: rgba(25,120,73,0.7);
+    height: 40px;
+    width: 100vw;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+footer a {
+    color: #aeb8ab;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        z-index: 5;
+    }
+
+    
+    
+}
+
+@media (max-width: 768px) {
+    
+    .navbar-collapse {
+        background-color: #4f7d66;!important;
+    }
+    
+    .heroText h1 {
+        font-size: 10vw;
+    }
+    
+    .heroHeader {
+        max-width: 100vw;
+    }
+    
+    
+    .heroText .description {
+        font-size: 6vw;
+        margin: 10px;
+        width: 90vw;
+    }
+    
+  
+    
+    .intro, .intro h1 {
+        width: 90%;
+    }
+    
+    .intro h1 {
+        font-size: 24px;
+    }
+    
+    .content {
+        padding-top: 0;
+    }
+  
+    
+    .one, .two, .three {
+        height: 200px;
+        width: 100vw;
+        padding: 0;
+    }
+    
+    
+    .one h2, .two h2, .three h2 {
+        font-size: 10vw;
+        margin-top: 50px !important;
+    }
+    
+    .gridContainer {
+        padding: 0;
+        width: 100vw !important;
+    }
+    
+    .servicerow, .services {
+        width: 100vw !important;
+    }
+    
+    
+    .col-sm {
+        width: 100vw !important;
+        padding-left: 0;
+    }
+    
+    .healingrow h2 {
+        padding: 30px 0px 0px 20px;
+        margin: 0;
+        height: auto;
+        width: 100vw;
+        font-size: 34px;
+    }
+    
+    .healingrow h4 {
+        padding: 30px 0px 0px 20px;
+        margin: 0;
+        height: auto;
+        width: 90vw;
+        font-size: 34px;
+    }
+    
+    .healingrow {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    
+    .healingrow p,  .healingrow ul li {
+        margin: 5px;
+        padding: 5px;
+        width: 90vw;
+        font-size: 4vw;
+    }
+    
+    .row {
+    flex-direction: column !important;
+     width: 100vw !important;
+        margin-left: 0;
+
+  }
+    
+    .diplom {
+        max-width: 100%;
+    }
+    
+    .img-responsive {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .diplom .col-sm-2, .diplom .col-sm-4 {
+       max-height: none;
+        width: 100vw;
+    }
+    
+    .grid {
+        padding-left: 0;
+
+    }
+    
+    .img-responsive img {
+        width: 100vw;
+    }
+
+    
+    h1 {
+        margin-top: 20px;
+        width: 90vw;
+    }
+    
+    p, li {
+        line-height: 140%;
+    }
+    
+    ul {
+        padding-left: 0;
+    }
+    
+    img.reikifb {
+        display: none;
+    }
+
+    .reikifbdt {
+        display: block;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+    
+    .outrorow {
+        max-width: 100vw;
+        margin: 0;
+             outline: 1px solid red; 
+        
+    }
+    
+    
+    
+    .klassiskhealing, .kristallhealing, .reikihealing, .medialvagledning, .massage, .forelasning, .about {
+        width: 100vw;
+        height: 500px;
+    }
+    
+    .formContainer {
+        width: 80%;
+    }
+    
+    input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+    
+
+    blockquote {
+        height: 300px;
+        width: 100vw;
+
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    footer {
+        height: 65px;
+        background: #4f7d66;
+        padding: 4px;
+        font-size: 14px;
+    }
+    
+}
+
