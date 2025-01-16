@@ -1,2 +1,0 @@
-# gronarosen
-Gröna Rosens website
