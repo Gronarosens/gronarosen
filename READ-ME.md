@@ -9,6 +9,12 @@ https://formspree.io
 Inlogg:  Email: janie.mobacker@live.se
           Lösenord: ÄtBajs666!
 
+Statistik/besöksräknare
+Clicky.com
+
+Användarnamn: gronarosens@gmail.com
+Lösen: ÄtBajs123
+
           -----------------------
           
 BÖR ENBART UPPDATERAS AV NÅGON SOM ÄR KUNNIG INOM HTML OCH CSS
