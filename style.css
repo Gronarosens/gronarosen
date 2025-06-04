@@ -359,6 +359,15 @@ blockquote cite:before {
 content: "\2014 \2009";
 }
 
+
+.payment {
+    background-color: #ededed;
+    padding: 20px;
+    margin: 10px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
 .contact h2 {
     text-align: center;
     width: 70vw;
