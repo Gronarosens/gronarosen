@@ -359,6 +359,14 @@ blockquote cite:before {
 content: "\2014 \2009";
 }
 
+.map h2 {
+    padding-top: 30px;
+}
+
+.map p {
+    padding: 20px 60px;
+    line-height: 1.5vw;
+}
 
 .payment {
     background-color: #ededed;
@@ -367,6 +375,7 @@ content: "\2014 \2009";
     max-width: 700px;
     border-radius: 10px;
 }
+
 
 .contact h2 {
     text-align: center;
