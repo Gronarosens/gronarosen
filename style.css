@@ -359,11 +359,11 @@ blockquote cite:before {
 content: "\2014 \2009";
 }
 
-.map h2 {
+.map .row .col-sm-6 h2 {
     padding-top: 30px;
 }
 
-.map p {
+.map .row .col-sm-6 p {
     padding: 20px 60px;
     line-height: 1.5vw;
 }
