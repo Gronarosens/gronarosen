@@ -368,6 +368,11 @@ content: "\2014 \2009";
     line-height: 1.5vw;
 }
 
+.mapsize {
+    width: 740px;
+    height: 480px; 
+}
+
 .payment {
     background-color: #ededed;
     padding: 20px;
@@ -645,6 +650,16 @@ footer a {
         font-size: 20px;
         margin: 0;
     }
+
+.map .row .col-sm-6 p {
+    padding: 5px 10px;
+    line-height: normal;
+}
+
+.mapsize {
+    width: 90vw;
+    height: 480px; 
+}
     
     footer {
         height: 65px;
