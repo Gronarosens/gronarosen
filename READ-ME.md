@@ -28,14 +28,14 @@ För att ändra stylingen på hemsidan välj filen style.css
 All kod i den filen är skriven i CSS. 
 
 Alla bilder ligger i mappen MEDIA
-För att ändra en bild på en sida; Leta upp bild-taggen (<img>) och ändra "media/bildnamn.jpg" till "media/namn-på-nya-bilden.jpg".
+För att ändra en bild på en sida; Leta upp bild-taggen ( < i m g > ) och ändra "media/bildnamn.jpg" till "media/namn-på-nya-bilden.jpg".
 
 
 För att ändra texter på hemsidan, välj aktuell sida i listan på filer till vänster.
 Leta upp texten du vill ändra:
 För rubriker, leta efter texten som står mellan < h 1 > < / h 1 > taggar
-För mindre rubriker, leta efter texten som står  mellan <h2 > </h2 > eller <h3 > </h3 > taggar
-För vanlig text, leta efter texten som står mellan <p > </p > taggar.
+För mindre rubriker, leta efter texten som står  mellan < h 2 > < / h 2 > eller < h 3 > < / h 3 > taggar
+För vanlig text, leta efter texten som står mellan < p > < / p > taggar.
 
 Ändra ENBART texten MELLAN DESSA TAGGAR. 
 
