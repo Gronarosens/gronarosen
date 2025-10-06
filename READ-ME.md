@@ -33,9 +33,9 @@ För att ändra en bild på en sida; Leta upp bild-taggen (<img>) och ändra "me
 
 För att ändra texter på hemsidan, välj aktuell sida i listan på filer till vänster.
 Leta upp texten du vill ändra:
-För rubriker, leta efter texten som står mellan <h1> </h1> taggar
-För mindre rubriker, leta efter texten som står  mellan <h2> </h2> eller <h3> </h3> taggar
-För vanlig text, leta efter texten som står mellan <p> </p> taggar.
+För rubriker, leta efter texten som står mellan <h1 > </h1 > taggar
+För mindre rubriker, leta efter texten som står  mellan <h2 > </h2 > eller <h3 > </h3 > taggar
+För vanlig text, leta efter texten som står mellan <p > </p > taggar.
 
 Ändra ENBART texten MELLAN DESSA TAGGAR. 
 
