@@ -192,6 +192,25 @@ h1 {
 
 }
 
+
+.#gcal {
+  width: 100%;
+  height: 600px !important;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  #gcal {
+    height: 500px;
+      width: 90%;
+  }
+}
+
+
+
+
+  }
+
 .services a {
     text-decoration: none;
 }
@@ -741,7 +760,7 @@ footer a {
 
     
 
-   .product-card img {
+    .product-card img {
       max-width: 100%;
       height: auto;
       object-fit: cover;
@@ -752,6 +771,11 @@ footer a {
     line-height: normal;
 }
 
+calendarsize {
+    width: 90vw;
+    height: 480px; 
+}
+    
 .mapsize {
     width: 90vw;
     height: 480px; 
