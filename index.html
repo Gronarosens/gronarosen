@@ -132,6 +132,22 @@
         </div>
 
 
+<!---- KALENDER ---->
+
+<div class="gridContainer map">
+<div class="row">
+
+<div class="col-sm-6">
+<h2>Kalender</h2>
+<p>Här ser du vad som händer framöver hos Gröna Rosen! Klicka på ett event i kalendern för att se mer info, länk till bokning etc. </p>
+</div>
+<div class="col-sm-6">
+  <iframe id="gcal" width="700" height="500" frameborder="0" scrolling="auto"></iframe>
+</div>
+</div>
+</div>
+        <hr>
+
         <!-- KARTA -->
         
 <div class="gridcontainer map">
@@ -150,7 +166,11 @@
 
 </div>
         <!-- KARTSLUT -->
-        
+
+
+
+
+<!---- FOOTER  --->
         <div class="outro">
   <div class="row outrorow">
     <div class="col-sm">
@@ -189,6 +209,14 @@
   };
   </script>
     <script async data-id="101476587" src="//static.getclicky.com/js"></script>
+<script>
+  const isMobile = window.innerWidth < 768;
+  const mode = isMobile ? "AGENDA" : "MONTH";
+  const iframe = document.getElementById("gcal");
+  iframe.src = "https://calendar.google.com/calendar/embed?wkst=2&ctz=Europe%2FStockholm&showPrint=0&mode=" + mode + "&showTabs=0&title=Gr%C3%B6na%20Rosen&src=Z3JvbmFyb3NlbnNAZ21haWwuY29t&color=%23039be5";
+</script>
+
+
 
 </body>
 </html>
